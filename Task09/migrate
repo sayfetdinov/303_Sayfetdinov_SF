@@ -1,0 +1,4 @@
+#!/usr/bin/env php
+<?php
+
+shell_exec('sqlite3 data/hospital.db < data/db_init.sql');
